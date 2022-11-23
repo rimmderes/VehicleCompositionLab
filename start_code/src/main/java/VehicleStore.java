@@ -45,6 +45,7 @@ public class VehicleStore {
         vehicles.add(speedboat);
         speedboat.startEngine();
 
+        System.out.println(speedboat.getHullType());
         System.out.println(speedboat.getFuel());
         System.out.println(speedboat.getPrice());
 

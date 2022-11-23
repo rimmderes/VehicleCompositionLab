@@ -56,7 +56,7 @@ public final class Speedboat extends Vehicle implements IWaterVehicle, IMotorise
 
     @Override
     public void setHullType(String hull) throws Exception {
-        throw new Exception("Cannot change wheelCount for Car");
+        throw new Exception("Cannot change hull type for speedboat");
     }
 
 }
