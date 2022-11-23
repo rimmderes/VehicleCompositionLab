@@ -32,7 +32,7 @@ public class VehicleStore {
         System.out.println(car1.getFuel());
         System.out.println(car1.getPrice());
 
-        // lab tests (water vehicle related)...
+        // lab tests (water vehicle - MVP)
         Kayak kayak = new Kayak(11, 21, new Product("Kaya", 450, 7));
         vehicles.add(kayak);
 
@@ -48,6 +48,8 @@ public class VehicleStore {
         System.out.println(speedboat.getHullType());
         System.out.println(speedboat.getFuel());
         System.out.println(speedboat.getPrice());
+
+        // lab tests (air vehicles - Extension)
 
         Plane plane = new Plane(500, 200, new Product("airbus", 900000, 1),
                 new Engine(99, 125), new Radar());
